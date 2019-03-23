@@ -1,6 +1,6 @@
 {
 	"name": "@lemadane/jwtfy",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The JWT (library) For You",
 	"author": "lemadane",
 	"main": "dist/index.js",
