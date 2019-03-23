@@ -1,8 +1,9 @@
 {
-	"name": "jwtify",
-	"version": "0.1.0",
+	"name": "jwt-fy",
+	"version": "0.1.1",
 	"description": "JWT library plus Refresh Token Authentication",
-	"main": "index.js",
+	"author": "lemadane",
+	"main": "dist/index.js",
 	"license": "MIT",
 	"scripts": {
 		"start": "node .",
