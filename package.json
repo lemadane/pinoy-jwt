@@ -1,7 +1,7 @@
 {
 	"name": "@lemadane/jwtfy",
 	"version": "0.1.0",
-	"description": "JWT library plus Refresh Token Authentication",
+	"description": "The JWT (library) For You",
 	"author": "lemadane",
 	"main": "dist/index.js",
 	"license": "MIT",
