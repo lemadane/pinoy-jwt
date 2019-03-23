@@ -1,0 +1,39 @@
+{
+	"name": "jwtify",
+	"version": "0.1.0",
+	"description": "JWT library plus Refresh Token Authentication",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "node .",
+		"debug": "nodemon .",
+		"build": "tsc",
+		"bldwtch": "tsc . --watch",
+		"format": "tslint 'src/**/*.ts' --fix",
+		"commit": "git add .; yarn git-cz",
+		"push": "git push origin",
+		"client-token": "node ./dist/jwtify.js"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^6.1.0",
+		"@types/node": "^11.11.3",
+		"@types/sha.js": "^2.4.0",
+		"@types/urlencode": "^1.1.1",
+		"commitizen": "^3.0.7",
+		"cz-conventional-changelog": "^2.1.0",
+		"nodemon": "^1.18.10",
+		"ts-node": "^8.0.3",
+		"tslint": "^5.14.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-config-standard": "^8.0.1",
+		"tslint-plugin-node": "^3.0.0-beta.7",
+		"typescript": "^3.3.3333"
+	},
+	"dependencies": {
+		"dotenv": "^7.0.0",
+		"njwt": "^1.0.0",
+		"sha.js": "^2.4.11",
+		"urldecode": "^1.0.1",
+		"urlencode": "^1.1.0"
+	}
+}

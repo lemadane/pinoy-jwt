@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "baseUrl": ".",
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "outDir": "dist",
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+        "pretty": true,
+        "removeComments": true,
+        "rootDir": "src",
+        "sourceMap": false,
+        "strict": false,
+        "suppressImplicitAnyIndexErrors": false,
+        "target": "es2018"
+    },
+    "exclude": [],
+    "include": ["src/**/*"]
+}
