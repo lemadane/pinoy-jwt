@@ -1,6 +1,6 @@
 {
-	"name": "jwt-fy",
-	"version": "0.1.1",
+	"name": "@lemadane/jwtfy",
+	"version": "0.1.0",
 	"description": "JWT library plus Refresh Token Authentication",
 	"author": "lemadane",
 	"main": "dist/index.js",
@@ -13,7 +13,7 @@
 		"format": "tslint 'src/**/*.ts' --fix",
 		"commit": "git add .; yarn git-cz",
 		"push": "git push origin",
-		"client-token": "node ./dist/jwtify.js"
+		"client-token": "node ./dist/jwtfy.js"
 	},
 	"devDependencies": {
 		"@types/dotenv": "^6.1.0",
@@ -21,7 +21,7 @@
 		"@types/sha.js": "^2.4.0",
 		"@types/urlencode": "^1.1.1",
 		"commitizen": "^3.0.7",
-		"cz-conventional-changelog": "^2.1.0",
+		"commitlint": "^7.5.2",
 		"nodemon": "^1.18.10",
 		"ts-node": "^8.0.3",
 		"tslint": "^5.14.0",
