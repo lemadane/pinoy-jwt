@@ -1,1 +1,1 @@
-# JWTFY - JWT library For You
+# pinoy-jwt - The JWT Library For You

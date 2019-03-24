@@ -2,6 +2,4 @@
 yarn.lock
 yarn-error.log
 package.lock.json
-#node_modules
-#dist
-#.env
+node_modules
